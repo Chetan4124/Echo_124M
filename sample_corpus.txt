@@ -1,0 +1,15 @@
+This is a small synthetic corpus created for testing Echo training. It contains simple English sentences that are safe to redistribute and use for unit tests or demos.
+
+The goal of this corpus is to provide tokenizable text that can be converted into token ID shards for training loops that expect NumPy .npy files of int32 token ids. Each line is a short sentence. The file is intentionally mundane and generic.
+
+Here are some sample sentences you'll find repeated with small variations to produce enough tokens for toy training:
+
+The quick brown fox jumps over the lazy dog.
+Machine learning models learn patterns from data.
+Open-source tools make experimentation reproducible.
+Small test corpora speed up iteration and debugging.
+This sentence is intentionally generic.
+Text data should be tokenized consistently with the model's tokenizer.
+We repeat lines to create a slightly larger corpus for examples.
+
+--- BEGIN GENERATED REPEATS ---
